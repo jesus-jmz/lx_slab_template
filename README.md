@@ -1,4 +1,4 @@
-# Deck template
+# Slab template
 
 ## Previsualización
 Para previsualizar el proyecto se tiene que hacer uso de un servidor local, utilizando herramientas como XAMPP o MAMP. 
