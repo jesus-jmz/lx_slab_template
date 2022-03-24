@@ -1,0 +1,292 @@
+
+
+.materiales img {
+    width: 100%;
+}
+
+.material{
+    border-radius: 10px;
+}
+
+.intro-video video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+header{
+    background:#FCF7EE;
+}
+
+.status {
+    margin-bottom: 1.5rem;
+}
+
+.video img, .material{
+    border-radius: 1rem;
+}
+
+footer {
+    color:#939596;
+    background: #000;
+}
+
+.progress {
+    margin-top: 5px;
+    border-radius: 0.5rem;
+}
+
+/*.progress::before{
+    content: "Progreso deck";
+}*/
+
+.meta-title {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.mete-text{
+    font-size: 16px;
+}
+
+.slab-title {
+    font-size: 2.3em;
+}
+
+
+
+.act-card .act-img {
+    position: absolute;
+}
+
+.slab-heading{
+    font-size:24px;
+    color:#0000AF;
+    text-decoration: none;
+}
+
+.return-icon {
+    color:inherit;
+    font-weight: bold;
+}
+
+.slab-heading:hover, .slab-heading:focus, .slab-heading::before:hover{
+    color:#004DFF;
+}
+
+.act-card{
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    position: relative;
+    padding-left: 1.5rem !important;
+}
+
+.act-card h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.act-card h3 {
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.act:last-child h3{
+    /*font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    */
+    font-size: 1vw;
+    margin-bottom: 0;
+    
+}
+
+.slab-progress{
+    box-shadow: 5px,5px, 10px, 10px;
+}
+
+.disabled{
+    opacity: 0.5;
+}
+
+.disabled h4, .disabled h3{
+    color: #222222 !important;;
+}
+
+
+a i {
+    color:#fff;
+}
+
+.act-card a {
+    position: absolute;
+    left: 20px;
+    bottom:15px;
+}
+
+.act {
+    margin: 0.75rem;
+}
+
+
+
+.hidden-lg{
+    display: none;
+}
+
+.act .row{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.act .col-6, .act .col-5, .act .col-7{
+    padding: 0;
+}
+
+.next-btn i{
+    color:#fff;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.next-btn{
+    position: absolute;
+    right:1.5rem;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-form .next-btn{
+    position: absolute;
+    right:0rem;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-form{
+    position: absolute;
+    right:1.5rem;
+}
+
+/*Normal screen size*/
+@media only screen and (min-width:768px){
+    main {
+        padding-left: 1rem !important;  
+        padding-right: 1rem !important;
+    }
+
+    /*.intro-video {
+        padding-right: 0;
+    }*/
+
+    .materiales img {
+        width: 50%;
+    }
+
+    .materiales-video img {
+        width: 100%;;
+    }
+
+    /*Text*/
+
+    .text-col{
+        min-height: 1px;
+    }
+
+    .text-block{
+        position: static;
+        display: flex;
+        overflow: auto;
+        height:256px;
+    }
+
+    .text-content{
+        height: 100%;
+    }
+}
+/*Breakpoint 2*/
+@media only screen and (min-width:900px) and (max-width: 1200px){
+
+    .act-card h3 {
+        font-size: 1.2vw;
+    }
+
+    .act:last-child h3{
+        font-size: .8vw;
+        margin-bottom: 0;
+        
+    }
+
+    
+
+    .img-act {
+        width: 100px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+/*Breakpoint 3*/
+@media only screen and (min-width:768px) and (max-width: 900px){
+
+    .act-card h3 {
+        font-size: 1.2vw;
+    }
+
+    .transcript{
+        margin-top: 1rem;
+    }
+
+    .act:last-child h3{
+        font-size: .8vw;
+        margin-bottom: 0;
+        
+    }
+
+    .img-act {
+        width: 90px;
+        padding:10px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/*Screen mobile si<e*/
+@media only screen and (max-width:768px){
+    .act {
+        margin-top: 1rem;
+    }
+
+    .act-card h3, .act:last-child h3 {
+        font-size: 4vw;
+    }
+
+    .act-card{
+        padding-top: 1.75rem !important;
+        padding-bottom: 1.75rem !important;
+    }
+
+    .hidden-lg{
+        display: block;
+    }
+
+    .act:first-child{
+        margin-top: 0;
+    }
+
+    .text-col{
+        margin-top: 1rem;
+    }
+}
+
+.hidden{
+    display: none !important;
+}

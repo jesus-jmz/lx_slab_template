@@ -1,0 +1,254 @@
+main h2 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+main h3{
+    font-size: 2.4em;
+}
+
+.mt-lg{
+    margin-top: 5rem;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+main{
+    min-height: calc(100vh - 5rem - 76px - 4rem - 16px);
+}
+
+.paso, .subpaso{
+    position: relative;
+    background: #e6e6e6;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+}
+
+.incisos h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mb-h{
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.pasos p {
+    font-size: 16px;
+}
+
+.letter-instructions{
+    list-style-type: upper-alpha;
+}
+
+.instructions .instruction {
+    font-size: 18px;
+}
+
+.subinstructions {
+    list-style-type: disc;
+}
+
+.subpaso {
+    padding:1rem;
+}
+
+.subpaso h4 {
+    color:#0000AF;
+    font-size: 16px;
+}
+
+.indicador-paso{
+    position: absolute;
+    left:-20px;
+}
+
+.indicador-paso-bg {
+    background: #0000AF;
+    width: 40px;
+    height: 40px;
+    border-radius: 5rem;
+}
+
+.indicador-paso-bg p{
+    color:#fff;
+    font-weight: 500;
+}
+
+.tutorial iframe{
+    width: 100%;
+    height: 250px;
+    padding:1rem;
+}
+
+.paso-container{
+    gap:2rem;
+}
+
+.botones, .botones-row {
+    margin-top: 0.5rem;
+    gap:0.5rem;
+}
+
+.botones-row{
+    width: 60%;
+}
+
+.botones-modal{
+    margin-top: 1.5rem;
+}
+
+.case-img img{
+    width: 100%;
+    border-radius: 10px;
+    height:457px;
+}
+
+.case-img{
+    border-radius: 10px;
+}
+
+.logo-tools img{
+    width:25%;
+    
+}
+
+.text-col{
+    min-height: 1px;
+}
+
+.text-block{
+    position: static;
+    display: flex;
+    overflow: auto;
+    
+    height:457px;
+}
+
+.text-content{
+    height: 100%;
+}
+
+.logo-tools a{
+    text-align: center;
+}
+
+.tool-img{
+    width: 100%;
+}
+
+.italic-text{
+    font-size: 12px;
+}
+
+.f-instruction{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.final-modal-dialog{
+    max-width: 950px;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.aspect-16-9{
+    aspect-ratio: 16/9;
+}
+
+a i {
+    color: #fff;
+}
+
+.final-modal-body{
+    background-image: url('../img/act/modal-bg.png');
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.modal-message{
+    font-weight: 300;
+    font-size: 24px;
+    width: 75%;
+    text-align: center;
+}
+
+/*Normal screen size*/
+@media only screen and (min-width:768px){
+    .subpasos{
+        margin-right: 0.75rem;
+        margin-left: 0.75rem;
+    }
+
+    .botones-row, .botones-modal{
+        width: 25%;
+    }
+
+    .final-col .botones{
+        width: 50%;
+    }
+    
+}
+
+/*Mobile screen size*/
+@media only screen and (max-width:768px){
+    main h2 {
+        font-size: 2.5em;
+    }
+
+    main h3 {
+        font-size: 1.3em;
+    }
+
+    .case-img img {
+        height:auto;
+    }
+
+    .text-block {
+        height: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .logo-tools img{
+        width:50%;
+        
+    }
+
+    .final-col{
+        margin-top: 1rem;
+    }
+
+    .botones-modal, .final-col .botones{
+        width: 60%;
+    }
+
+    .pasos{
+        margin-left: 1rem;
+    }
+
+    .incisos h3 {
+        font-size: 16px;
+    }
+
+    .subpasos, .paso-container{
+        gap:0;
+    }
+
+}

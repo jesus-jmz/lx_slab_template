@@ -1,0 +1,171 @@
+* {
+    color:#333333
+}
+
+/*Custom fonts*/
+@font-face {
+    font-family: Baskervville;
+    src: url("../fonts/Baskervville/Baskervville-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Hind Madurai";
+    src: url("../fonts/Hind_Madurai/HindMadurai-Medium.ttf");
+}
+
+footer {
+    color:#939596;
+    background: #000;
+}
+
+/*BEGIN: Heading styles */
+.heading{
+    font-family: Baskervville, Arial;
+    font-weight:900;
+    font-size: 40px;
+}
+
+.typeform-body{
+    padding: 0;
+}
+
+.body{
+    font-family: "Hind Madurai", Arial;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.subtiitle{
+    font-size: 24px;
+    letter-spacing: 3%;
+}
+
+.blue-text {
+    color:#0000AF;
+}
+
+.blue-bg, .btn, .progress-bar{
+    background: #0000AF;
+}
+
+.btn{
+    border-color: #0000AF;
+}
+
+.btn-outline-primary{
+    background: transparent;
+    color:#0000AF;
+    border-color: #0000AF;
+}
+
+/*END: Heading styles*/
+
+.status{
+    padding-right: 0.5rem;
+}
+
+.logo{
+    height: 100%;
+}
+
+.logo img{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 50px;
+}
+
+nav{
+    border-bottom: 2px solid black;
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    margin-top: 5px;
+    border-radius: 0.5rem;
+    background-color: #ddd;
+}
+
+.intro-video img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+
+.pr-0{
+    padding-right: 0;
+}
+
+.ps-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.w-70{
+    width: 70% !important;
+}
+
+.w-30{
+    width: 30% !important;
+}
+
+.mw-75{
+    max-width: 750px;
+}
+
+.modal-header{
+    justify-content: center;
+}
+
+.modal-content{
+    border-radius: 1rem;
+    border:none;
+}
+
+.progreso {
+    padding-left: 0;
+}
+
+.img-form .img-btn {
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+@media only screen and (max-width:768px){
+    .w-75{
+        width: 100% !important;
+    }
+
+    .progreso{
+        width:70% !important;
+    }
+    .progreso .col, .progreso .col-1 {
+        padding-left: 0;
+    }
+    .regresar{
+        width: 30% !important;
+    }
+
+    .menu{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .menu .logo{
+        margin-left: 0.5rem;
+    }
+
+    .status{
+        padding-right: 1rem;
+    }
+}
+
+.btn{
+    border-radius: 1.5rem;
+}
