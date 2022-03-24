@@ -23,6 +23,7 @@ footer {
     font-family: Baskervville, Arial;
     font-weight:900;
     font-size: 40px;
+    word-wrap: break-word;
 }
 
 .typeform-body{
